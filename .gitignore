@@ -11,7 +11,11 @@ node_modules/
 .env
 .env.local
 
-# explicitly: no PDFs/HTML — link only
+# Obsidian
+.obsidian/workspace*
+.obsidian/cache
+
+# link only — no PDFs/HTML
 *.pdf
 *.html
 *.htm

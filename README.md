@@ -1,31 +1,27 @@
 # Wiki
 
-Personal research wiki. Link-based — no PDFs/HTML stored locally, only URLs + short notes. Keeps the repo tiny.
+Personal LLM-maintained knowledge base. Source links + LLM-compiled articles + derived outputs. Tiny, syncable, link-only.
 
 ## Layout
 
 ```
-papers/    research papers           (arxiv, conf proceedings, ...)
-blogs/     research / engineering blogs
-projects/  open-source projects + repos
+raw/        SOURCE MATERIAL — link-only stubs. One folder per blog/paper/project, README.md = the raw file.
+articles/   COMPILED WIKI — LLM-maintained topics/, concepts/, summaries/, index.md.
+outputs/    DERIVED — Q&A renders, Marp slides, matplotlib images, scratch notes.
 ```
 
-Each type splits into 13 topic folders:
+LLM owns writes. You read in Obsidian (`~/wiki` as a vault). `[[slug]]` links resolve across `raw/`, `articles/concepts/`, `articles/summaries/`.
 
-`nlp` · `rl` · `agents` · `self-play` · `game-theory` · `multimodal` · `vision` · `systems` · `continuous-learning` · `theory` · `bandit` · `ml` · `others`
+## Ingest a new entry
 
-## Add an entry
+`/wiki-ingest <url>` — fetches, classifies, drops a raw stub, updates compiled wiki + index.
 
-Pick the right `<type>/<topic>/README.md` and prepend (newest at top):
+URL is mandatory. Blog/paper/project type is auto-detected (`arxiv.org/abs/*` → paper, `github.com/<org>/<repo>` → project, else blog).
 
-```markdown
-- [Title](https://...) — one-line note. *Authors, venue/year.* `arxiv:1234.5678`
-```
+## Topics (13)
 
-Drop the citation/id parts you don't have. Keep the note short — the link does the rest.
-
-Unsure of topic? Use `others/`.
+`nlp · rl · agents · self-play · game-theory · multimodal · vision · systems · continuous-learning · theory · bandit · ml · others`
 
 ## Sync
 
-Stop hook in `.claude/settings.json` auto commits + pushes to `origin/main` at the end of every Claude turn. To sync manually: `git add -A && git commit -m 'msg' && git push`.
+`Stop` hook in `.claude/settings.json` auto commits + pushes to `origin/main` at the end of every Claude turn. Manual: `git add -A && git commit -m 'msg' && git push`.
