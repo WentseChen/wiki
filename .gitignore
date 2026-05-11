@@ -1,0 +1,17 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+*.swp
+*.swo
+node_modules/
+.env
+.env.local
+
+# explicitly: no PDFs/HTML — link only
+*.pdf
+*.html
+*.htm
