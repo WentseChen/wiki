@@ -12,4 +12,6 @@ Reinforcement learning — policy/value methods, exploration, offline RL.
 
 ## Recent
 
+- [[unified-game-theoretic-marl]] — PSRO: best-response RL against an empirical-game meta-strategy; diagnoses multiagent overfitting via joint-policy correlation. *Lanctot et al., 2017.*
+
 <!-- newest at top — managed by /wiki-ingest -->
