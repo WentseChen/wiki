@@ -12,4 +12,6 @@ General machine learning — supervised, self-supervised, other.
 
 ## Recent
 
+- [[loss-of-plasticity]] — Deep nets lose plasticity under continual training; continual backprop (reinit least-used units) restores it. *Dohare et al., 2024.*
+
 <!-- newest at top — managed by /wiki-ingest -->

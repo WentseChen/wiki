@@ -20,6 +20,7 @@ Master entry point. Browse by topic, or scan recent additions below.
 
 ## Recent additions
 
+- [[loss-of-plasticity]] — Deep nets lose plasticity under continual training; continual backprop (reinit least-used units) restores it. *Dohare et al., 2024.*
 - [[diayn-skill-discovery]] — Unsupervised skill discovery via MI between latent skill and visited states. *Eysenbach et al., 2019.*
 - [[dvd-population-diversity]] — Population diversity as determinant of kernel over behavioral embeddings. *Parker-Holder et al., 2020.*
 - [[smerl-structured-maxent-rl]] — Multiple near-optimal solutions in one MDP via latent-gated diversity bonus. *Kumar et al., 2020.*
@@ -39,6 +40,4 @@ Master entry point. Browse by topic, or scan recent additions below.
 - [[pipeline-psro]] — Parallel PSRO via hierarchical RL workers; SOTA on Barrage Stratego with guarantees preserved. *McAleer et al., 2020.*
 - [[alpha-psro-generalized-training]] — α-PSRO: uses α-Rank as meta-solver, extending PSRO to general-sum many-player games. *Muller et al., 2020.*
 - [[alpha-rank]] — Markov-Conley-chain ranking; unique, polynomial-time, drop-in PSRO meta-solver. *Omidshafiei et al., 2019.*
-- [[open-ended-learning-symmetric-zero-sum]] — Rectified Nash Response: niching best-response for nontransitive games. *Balduzzi et al., 2019.*
-
 <!-- newest at top, cap 20 — managed by /wiki-ingest -->
