@@ -20,6 +20,16 @@ Master entry point. Browse by topic, or scan recent additions below.
 
 ## Recent additions
 
+- [[primacy-bias-deep-rl]] — Periodic resets of the last few layers cure deep RL's overfitting to early data and unlock high replay ratios. *Nikishin et al., 2022.*
+- [[dormant-neuron-phenomenon]] — Hidden units go "dormant" during DQN training; ReDo periodically reinitializes them to restore capacity. *Sokar et al., 2023.*
+- [[capacity-loss-rl]] — Non-stationary TD targets shrink feature rank; InFeR regularizes features toward init to preserve capacity. *Lyle et al., 2022.*
+- [[implicit-under-parameterization]] — Bootstrapped value learning collapses the feature matrix to low effective rank in deep RL. *Kumar et al., 2021.*
+- [[warm-starting-shrink-perturb]] — Continued training generalizes worse than from-scratch; shrink-and-perturb closes the gap. *Ash & Adams, 2020.*
+- [[l2-init-regenerative]] — L2-regularize toward initial parameters (not zero) to preserve plasticity in continual supervised learning. *Kumar et al., 2023.*
+- [[plasticity-loss-continual-drl]] — Plasticity loss clearly demonstrated on continual Atari; CReLU activations largely mitigate it. *Abbas et al., 2023.*
+- [[understanding-plasticity-nn]] — Plasticity loss is driven by loss-landscape curvature blowup; dead units are downstream symptoms. *Lyle et al., 2023.*
+- [[ewc-elastic-weight-consolidation]] — Quadratic penalty around each task's weights (Fisher-weighted) overcomes catastrophic forgetting. *Kirkpatrick et al., 2017.*
+- [[plasticity-injection-drl]] — Zero-impact residual injection adds trainable capacity and serves as a causal plasticity diagnostic. *Nikishin et al., 2023.*
 - [[plasticity]] — Deep nets lose plasticity under continual training; continual backprop (reinit least-used units) restores it. *Dohare et al., 2024.*
 - [[diayn-skill-discovery]] — Unsupervised skill discovery via MI between latent skill and visited states. *Eysenbach et al., 2019.*
 - [[dvd-population-diversity]] — Population diversity as determinant of kernel over behavioral embeddings. *Parker-Holder et al., 2020.*
@@ -30,14 +40,5 @@ Master entry point. Browse by topic, or scan recent additions below.
 - [[map-elites]] — QD algorithm filling a discretized behavior-space archive with elites. *Mouret & Clune, 2015.*
 - [[dads-dynamics-aware-skills]] — Unsupervised skills that are both diverse and predictable, enabling latent-space MPC. *Sharma et al., 2020.*
 - [[icm-curiosity-driven-exploration]] — Curiosity = forward-model error in inverse-model feature space. *Pathak et al., 2017.*
-- [[alphastar-grandmaster]] — Grandmaster SC2 via league training (mains + exploiters) over self-play. *Vinyals et al., 2019.*
-- [[reward-switching-policy-optimization]] — Iteratively discovers diverse policies by switching extrinsic/intrinsic reward on trajectory novelty. *Zhou et al., 2022.*
-- [[neupl-neural-population-learning]] — One conditional net represents the whole PSRO population, all policies trained concurrently. *Liu et al., 2022.*
-- [[anytime-psro]] — APSRO picks a meta-distribution that monotonically decreases exploitability vs the full game. *McAleer et al., 2022.*
-- [[jpsro-correlated-equilibrium]] — JPSRO uses (C)CE meta-solvers + MGCE selection; extends PSRO to n-player general-sum games. *Marris et al., 2021.*
-- [[diverse-psro-behavioural-diversity]] — Diverse PSRO with a DPP diversity kernel; lower exploitability on open-ended games. *Perez-Nieves et al., 2021.*
-- [[xdo-extensive-form-double-oracle]] — Mixes best responses at every infostate; linear-in-infostates Nash convergence. *McAleer et al., 2021.*
-- [[pipeline-psro]] — Parallel PSRO via hierarchical RL workers; SOTA on Barrage Stratego with guarantees preserved. *McAleer et al., 2020.*
-- [[alpha-psro-generalized-training]] — α-PSRO: uses α-Rank as meta-solver, extending PSRO to general-sum many-player games. *Muller et al., 2020.*
-- [[alpha-rank]] — Markov-Conley-chain ranking; unique, polynomial-time, drop-in PSRO meta-solver. *Omidshafiei et al., 2019.*
+
 <!-- newest at top, cap 20 — managed by /wiki-ingest -->

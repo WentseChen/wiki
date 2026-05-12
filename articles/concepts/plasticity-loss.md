@@ -4,3 +4,6 @@ The phenomenon where deep nets trained on non-stationary / continual streams gra
 
 ## Sources
 - [[plasticity]]
+- [[l2-init-regenerative]]
+- [[plasticity-loss-continual-drl]]
+- [[understanding-plasticity-nn]]

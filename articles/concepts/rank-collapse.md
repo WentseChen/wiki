@@ -1,0 +1,6 @@
+# rank collapse
+
+Progressive reduction of the effective rank of a network's learned features (or weight matrices) over training. In deep RL, induced by iterated bootstrapped regression onto self-generated targets.
+
+## Sources
+- [[implicit-under-parameterization]]

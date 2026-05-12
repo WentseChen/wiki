@@ -12,6 +12,13 @@ Reinforcement learning — policy/value methods, exploration, offline RL.
 
 ## Recent
 
+- [[primacy-bias-deep-rl]] — Periodic resets of the last few layers cure deep RL's overfitting to early data and unlock high replay ratios. *Nikishin et al., 2022.*
+- [[dormant-neuron-phenomenon]] — Hidden units go "dormant" during DQN training; ReDo periodically reinitializes them to restore capacity. *Sokar et al., 2023.*
+- [[capacity-loss-rl]] — Non-stationary TD targets shrink feature rank; InFeR regularizes features toward init to preserve capacity. *Lyle et al., 2022.*
+- [[implicit-under-parameterization]] — Bootstrapped value learning collapses the feature matrix to low effective rank in deep RL. *Kumar et al., 2021.*
+- [[plasticity-loss-continual-drl]] — Plasticity loss clearly demonstrated on continual Atari; CReLU activations largely mitigate it. *Abbas et al., 2023.*
+- [[understanding-plasticity-nn]] — Plasticity loss is driven by loss-landscape curvature blowup; dead units are downstream symptoms. *Lyle et al., 2023.*
+- [[plasticity-injection-drl]] — Zero-impact residual injection adds trainable capacity and serves as a causal plasticity diagnostic. *Nikishin et al., 2023.*
 - [[plasticity]] — Deep nets lose plasticity under continual training; continual backprop (reinit least-used units) restores it. *Dohare et al., 2024.*
 - [[diayn-skill-discovery]] — Unsupervised skill discovery via MI between latent skill and visited states. *Eysenbach et al., 2019.*
 - [[dvd-population-diversity]] — Population diversity as determinant of kernel over behavioral embeddings. *Parker-Holder et al., 2020.*
