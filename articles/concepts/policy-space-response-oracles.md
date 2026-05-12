@@ -4,3 +4,11 @@ Iterative multiagent-RL algorithm: maintain a growing population of policies, co
 
 ## Sources
 - [[unified-game-theoretic-marl]]
+- [[alpha-psro-generalized-training]]
+- [[pipeline-psro]]
+- [[jpsro-correlated-equilibrium]]
+- [[open-ended-learning-symmetric-zero-sum]]
+- [[diverse-psro-behavioural-diversity]]
+- [[neupl-neural-population-learning]]
+- [[xdo-extensive-form-double-oracle]]
+- [[anytime-psro]]
