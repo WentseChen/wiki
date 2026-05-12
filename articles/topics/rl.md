@@ -12,6 +12,7 @@ Reinforcement learning — policy/value methods, exploration, offline RL.
 
 ## Recent
 
+- [[reward-switching-policy-optimization]] — Iteratively discovers diverse policies by switching extrinsic/intrinsic reward on trajectory novelty. *Zhou et al., 2022.*
 - [[neupl-neural-population-learning]] — One conditional net represents the whole PSRO population, all policies trained concurrently. *Liu et al., 2022.*
 - [[anytime-psro]] — APSRO picks a meta-distribution that monotonically decreases exploitability vs the full game. *McAleer et al., 2022.*
 - [[jpsro-correlated-equilibrium]] — JPSRO uses (C)CE meta-solvers + MGCE selection; extends PSRO to n-player general-sum games. *Marris et al., 2021.*
