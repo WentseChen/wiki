@@ -12,6 +12,16 @@ Reinforcement learning — policy/value methods, exploration, offline RL.
 
 ## Recent
 
+- [[diayn-skill-discovery]] — Unsupervised skill discovery via MI between latent skill and visited states. *Eysenbach et al., 2019.*
+- [[dvd-population-diversity]] — Population diversity as determinant of kernel over behavioral embeddings. *Parker-Holder et al., 2020.*
+- [[smerl-structured-maxent-rl]] — Multiple near-optimal solutions in one MDP via latent-gated diversity bonus. *Kumar et al., 2020.*
+- [[diverse-successor-features]] — CMDP framing of diverse-near-optimal RL with SF-correlation diversity. *Zahavy et al., 2021.*
+- [[domino-diversity-near-optimality]] — CMDP framing of diverse RL using state-occupancy distance. *Zahavy et al., 2022.*
+- [[novelty-search-abandoning-objectives]] — Pure-novelty search beats objective-based search on deceptive tasks. *Lehman & Stanley, 2011.*
+- [[map-elites]] — QD algorithm filling a discretized behavior-space archive with elites. *Mouret & Clune, 2015.*
+- [[dads-dynamics-aware-skills]] — Unsupervised skills that are both diverse and predictable, enabling latent-space MPC. *Sharma et al., 2020.*
+- [[icm-curiosity-driven-exploration]] — Curiosity = forward-model error in inverse-model feature space. *Pathak et al., 2017.*
+- [[alphastar-grandmaster]] — Grandmaster SC2 via league training (mains + exploiters) over self-play. *Vinyals et al., 2019.*
 - [[reward-switching-policy-optimization]] — Iteratively discovers diverse policies by switching extrinsic/intrinsic reward on trajectory novelty. *Zhou et al., 2022.*
 - [[neupl-neural-population-learning]] — One conditional net represents the whole PSRO population, all policies trained concurrently. *Liu et al., 2022.*
 - [[anytime-psro]] — APSRO picks a meta-distribution that monotonically decreases exploitability vs the full game. *McAleer et al., 2022.*

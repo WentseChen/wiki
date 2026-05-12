@@ -12,6 +12,7 @@ Agentic systems, tool use, planning, multi-agent.
 
 ## Recent
 
+- [[alphastar-grandmaster]] — Grandmaster SC2 via league training (mains + exploiters) over self-play. *Vinyals et al., 2019.*
 - [[reward-switching-policy-optimization]] — Iteratively discovers diverse policies by switching extrinsic/intrinsic reward on trajectory novelty. *Zhou et al., 2022.*
 - [[neupl-neural-population-learning]] — One conditional net represents the whole PSRO population, all policies trained concurrently. *Liu et al., 2022.*
 - [[anytime-psro]] — APSRO picks a meta-distribution that monotonically decreases exploitability vs the full game. *McAleer et al., 2022.*

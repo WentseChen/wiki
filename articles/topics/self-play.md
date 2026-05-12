@@ -12,6 +12,7 @@ Self-play training, fictitious play, PSRO.
 
 ## Recent
 
+- [[alphastar-grandmaster]] — Grandmaster SC2 via league training (mains + exploiters) over self-play. *Vinyals et al., 2019.*
 - [[open-ended-learning-symmetric-zero-sum]] — Rectified Nash Response: niching best-response for nontransitive games; builds diverse populations. *Balduzzi et al., 2019.*
 - [[neural-fictitious-self-play]] — NFSP: deep-RL fictitious play, first scalable Nash solver for imperfect-info games. *Heinrich & Silver, 2016.*
 
