@@ -20,24 +20,24 @@ Master entry point. Browse by topic, or scan recent additions below.
 
 ## Recent additions
 
+- [[low-rank-pretraining-spectral-geometry]] — Low-rank pre-training converges to geometrically distinct solutions from full-rank even at matched perplexity; 16-metric spectral/geometric analysis. *Shivagunde et al., 2026.*
+- [[molf-lora-full-finetuning-routing]] — MoLF routes gradient updates between LoRA and full FT at optimizer level; MoLF-Efficient routes among variable-rank LoRA experts. *Tang et al., 2026.*
+- [[remix-rl-routing-mixture-loras]] — Routing collapse in Mixture-of-LoRAs fixed via RL gradient estimation on non-learnable routers; enforces balanced adapter utilization. *Qiu et al., 2026 (ICLR).*
+- [[shared-lora-personalized-rlhf]] — LoRA in aggregated reward parameter space handles heterogeneous preferences; sample complexity guarantees for personalized RLHF. *Liu et al., 2025 (AISTATS).*
+- [[peft-preference-alignment-tradeoffs]] — 300+ experiments: LoRA/QLoRA × SFT/DPO; SFT sometimes beats DPO; non-trivial PEFT-alignment interactions across model families. *Thakkar et al., 2024 (ACL).*
+- [[up-rlhf-diverse-lora-ensembles]] — Diverse LoRA ensembles (nuclear norm diversity) quantify reward uncertainty; uncertainty penalty mitigates RLHF overoptimization. *Zhai et al., 2023.*
+- [[pe-rlhf-parameter-efficient]] — LoRA-based PE-RLHF matches full RLHF on 6 tasks; 90% faster reward model training, 50% memory savings. *Sidahmed et al., 2024.*
+- [[lora-rlhf-efficiency-regularization]] — LoRA-PPO aligns LLaMA 7B on 2 A100s (0.2% params); KL penalty unneeded (implicit regularization); mitigates PPO factuality degradation. *Sun et al., 2023.*
+- [[goat-lora-adaptive-svd-moe]] — GOAT: SVD-structured MoE routes to relevant singular value priors; closes LoRA-vs-full-FT gap on 25 datasets. *Fan et al., 2025 (ICML).*
+- [[essa-evolutionary-strategies-alignment]] — Gradient-free alignment via evolutionary search over LoRA singular values; matches GRPO without backprop; shows SVs encode alignment info. *Korotyshova et al., 2025.*
+- [[lora-rank-tradeoffs-knowledge-robustness]] — LoRA rank has non-monotonic effect: past an optimum, higher rank accelerates forgetting with no in-domain gain; spectral analysis confirms. *Rathore et al., 2025 (AACL).*
+- [[lora-learns-less-forgets-less]] — LoRA underperforms full FT on in-domain tasks; full FT learns 10–100x higher effective rank; LoRA forgets less but learns less. *Biderman et al., 2024 (TMLR).*
+- [[rl-vs-sft-singular-vector-analysis]] — RL fine-tuning corrects SFT-induced singular-vector drift; direction changes dominate magnitude; top-20% SVD directions recover 70-80% OOD perf. *Jin et al., 2025.*
+- [[lora-spectral-geometry-training-objective]] — Spectral features (effective rank, stable rank) of LoRA deltas classify training objective at AUC~1.00 and predict harmful compliance. *Paul, 2026.*
+- [[lora-vs-full-finetuning-illusion]] — LoRA inserts "intruder dimensions" (anomalous high-rank singular vectors) that causally drive forgetting; LoRA ≠ full FT spectrally. *Shuttleworth et al., 2024.*
 - [[lora-rank-grpo]] — Gradient-based rank allocation fails under GRPO: RL gradient landscape is 5× flatter than SFT, causing adaptive LoRA to lose 4.5% accuracy vs. uniform. *Sawant, 2026.*
 - [[marti]] — Centralized MAS interaction + distributed policy training over OpenRLHF; rule-based + LLM-generated rewards. *Zhang et al., 2026.*
 - [[magrpo-llm-collaboration]] — Cooperative MARL formulation for LLM collaboration via group-relative advantages. *Liu et al., 2025.*
 - [[stronger-mas]] — AT-GRPO fixes GRPO's prompt/turn assumptions in multi-agent settings; planning accuracy 14→96+%. *Zhao et al., 2025.*
 - [[agentrl-multi-turn-multi-task]] — Multi-turn multi-task agentic RL with fully-async pipeline; cross-policy sampling + task-advantage normalization. *Zhang et al., 2025.*
-- [[flexmarl-rollout-training-codesign]] — FlexMARL: rollout-training co-design for LLM-MARL infra; 7.3× speedup, 5.6× hardware utilization. *Jiang et al., 2026.*
-- [[gptswarm]] — Language agents as optimizable graphs; RL/re-prompt edge optimization for self-improving swarms. *Zhuge et al., 2024.*
-- [[orchestration-traces-rl]] — RL on LLM-MAS via orchestration traces (temporal interaction graphs); 84-paper curated pool. *Zhang, 2026.*
-- [[parl-parallel-agent-rl]] — Parallel-agent RL with staged reward shaping + critical-steps metric; coordinates ~100 sub-agents. *Swarm Corp, 2026.*
-- [[multi-agents-debate]] — Adversarial debate + judge mitigates Degeneration of Thoughts in single-agent self-reflection. *Liang et al., 2023.*
-- [[agentgym-rl]] — ScalingInter-RL progressive horizon scaling; 7B matches GPT-4o on WebArena. *Xi et al., 2025.*
-- [[agent-r1]] — Modular end-to-end RL framework for tool-using LLM agents; MDP extension for agent contexts. *Cheng et al., 2025.*
-- [[verlog]] — Multi-turn RL for 400+ turn LLM agent tasks; dual-discounted GAE + per-turn async rollouts. *Chen et al., 2025.*
-- [[rllm]] — Framework-agnostic agent-RL via @rllm.rollout decorator; small models beat 50× larger via RL. *rllm-org, 2025.*
-- [[practitioners-guide-multi-turn-rl]] — Empirical study of multi-turn agentic RL design space (env / reward / policy); PPO vs RLOO. *Wang et al., 2025.*
-- [[areal]] — Fully-async RL system for language reasoning; 2.77× speedup; 14+ algorithms; 1.5B–235B scale. *Fu et al., 2025.*
-- [[openrlhf]] — Ray + vLLM RLHF; PPO / REINFORCE++ / GRPO / RLOO; sync/async/hybrid; MARTI's parent codebase. *OpenRLHF, 2024.*
-- [[verl-hybridflow]] — Hybrid-controller RL post-training; FSDP/Megatron/vLLM integration; backbone for many agentic-RL frameworks. *ByteDance Seed et al., 2024.*
-- [[llm-based-marl-survey]] — Early survey of LLM-based MARL; coordination, communication, human-in-the-loop as open challenges. *Sun et al., 2024.*
-- [[agentic-rl-landscape-survey]] — 500+ paper survey; reframes LLM-RL from single-step MDP to extended POMDP. *Zhang et al., 2025.*
 <!-- newest at top, cap 20 — managed by /wiki-ingest -->

@@ -4,3 +4,5 @@ Sharp loss of performance on previously-learned tasks when a network is trained 
 
 ## Sources
 - [[ewc-elastic-weight-consolidation]]
+- [[lora-vs-full-finetuning-illusion]]
+- [[lora-learns-less-forgets-less]]

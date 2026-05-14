@@ -12,6 +12,7 @@ Learning theory, optimization, generalization.
 
 ## Recent
 
+- [[low-rank-pretraining-spectral-geometry]] — Low-rank pre-training converges to geometrically distinct solutions from full-rank even at matched perplexity; 16-metric spectral/geometric analysis. *Shivagunde et al., 2026.*
 - [[capacity-loss-rl]] — Non-stationary TD targets shrink feature rank; InFeR regularizes features toward init to preserve capacity. *Lyle et al., 2022.*
 - [[implicit-under-parameterization]] — Bootstrapped value learning collapses the feature matrix to low effective rank in deep RL. *Kumar et al., 2021.*
 - [[understanding-plasticity-nn]] — Plasticity loss is driven by loss-landscape curvature blowup; dead units are downstream symptoms. *Lyle et al., 2023.*

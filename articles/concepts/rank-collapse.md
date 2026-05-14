@@ -4,3 +4,6 @@ Progressive reduction of the effective rank of a network's learned features (or 
 
 ## Sources
 - [[implicit-under-parameterization]]
+- [[remix-rl-routing-mixture-loras]]
+- [[lora-rank-grpo]]
+- [[lora-vs-full-finetuning-illusion]]

@@ -4,3 +4,16 @@ Low-Rank Adaptation — parameter-efficient fine-tuning method that injects trai
 
 ## Sources
 - [[lora-rank-grpo]]
+- [[lora-vs-full-finetuning-illusion]]
+- [[lora-spectral-geometry-training-objective]]
+- [[lora-learns-less-forgets-less]]
+- [[lora-rank-tradeoffs-knowledge-robustness]]
+- [[essa-evolutionary-strategies-alignment]]
+- [[goat-lora-adaptive-svd-moe]]
+- [[lora-rlhf-efficiency-regularization]]
+- [[pe-rlhf-parameter-efficient]]
+- [[up-rlhf-diverse-lora-ensembles]]
+- [[peft-preference-alignment-tradeoffs]]
+- [[shared-lora-personalized-rlhf]]
+- [[remix-rl-routing-mixture-loras]]
+- [[molf-lora-full-finetuning-routing]]

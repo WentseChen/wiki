@@ -4,3 +4,4 @@ The local curvature (Hessian / sharpness) of the training loss around the curren
 
 ## Sources
 - [[understanding-plasticity-nn]]
+- [[low-rank-pretraining-spectral-geometry]]
