@@ -5,3 +5,4 @@ Group Relative Policy Optimization — uses group-relative advantages over a sam
 ## Sources
 - [[magrpo-llm-collaboration]]
 - [[stronger-mas]]
+- [[lora-rank-grpo]]

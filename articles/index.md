@@ -20,6 +20,7 @@ Master entry point. Browse by topic, or scan recent additions below.
 
 ## Recent additions
 
+- [[lora-rank-grpo]] — Gradient-based rank allocation fails under GRPO: RL gradient landscape is 5× flatter than SFT, causing adaptive LoRA to lose 4.5% accuracy vs. uniform. *Sawant, 2026.*
 - [[marti]] — Centralized MAS interaction + distributed policy training over OpenRLHF; rule-based + LLM-generated rewards. *Zhang et al., 2026.*
 - [[magrpo-llm-collaboration]] — Cooperative MARL formulation for LLM collaboration via group-relative advantages. *Liu et al., 2025.*
 - [[stronger-mas]] — AT-GRPO fixes GRPO's prompt/turn assumptions in multi-agent settings; planning accuracy 14→96+%. *Zhao et al., 2025.*
@@ -39,6 +40,4 @@ Master entry point. Browse by topic, or scan recent additions below.
 - [[verl-hybridflow]] — Hybrid-controller RL post-training; FSDP/Megatron/vLLM integration; backbone for many agentic-RL frameworks. *ByteDance Seed et al., 2024.*
 - [[llm-based-marl-survey]] — Early survey of LLM-based MARL; coordination, communication, human-in-the-loop as open challenges. *Sun et al., 2024.*
 - [[agentic-rl-landscape-survey]] — 500+ paper survey; reframes LLM-RL from single-step MDP to extended POMDP. *Zhang et al., 2025.*
-- [[agentic-rl-training-recipes]] — Survey/repo cataloging agentic-RL training schemes, infra, env taxonomy, reward design. *Chang et al., 2026.*
-
 <!-- newest at top, cap 20 — managed by /wiki-ingest -->
