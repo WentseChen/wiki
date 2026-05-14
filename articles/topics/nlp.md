@@ -12,6 +12,8 @@ Language models, training, alignment, prompting, evaluation.
 
 ## Recent
 
+- [[aepo-arbitrary-entropy-policy-optimization]] — AEPO reformulates entropy regulation as a PG problem via REINFORCE on temperature-adjusted samples; avoids reward-vs-entropy trade-off; dual of weight-side rank collapse. *Wang et al., 2025.*
+- [[dapo-open-source-rl-system]] — DAPO names entropy collapse as core GRPO failure; decoupled clip-higher + dynamic sampling restore exploration; 50 pts AIME 2024 on Qwen2.5-32B. *Yu et al., 2025.*
 - [[rmt-transformer-singular-values]] — RMT baseline (Marchenko-Pastur) reveals learned structure at both spectrum ends in transformers; small SVs matter; fine-tuning shifts importance toward extremes. *Staats et al., 2024.*
 - [[lora-one-singular-subspace]] — Proves LoRA adapters align to singular subspaces of one-step full gradient; LoRA-One init achieves linear convergence; explains rank collapse under sparse-reward RL. *Zhang et al., 2025 (ICML oral).*
 - [[intrinsic-dim-lm-finetuning]] — Pretrained LMs have very low intrinsic dimensionality; ~200 params in random subspace achieves 90% of full FT; compression-based generalization bounds. *Aghajanyan et al., 2021 (ACL).*

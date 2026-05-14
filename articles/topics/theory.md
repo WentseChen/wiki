@@ -12,6 +12,7 @@ Learning theory, optimization, generalization.
 
 ## Recent
 
+- [[aepo-arbitrary-entropy-policy-optimization]] — AEPO reformulates entropy regulation as a PG problem via REINFORCE on temperature-adjusted samples; avoids reward-vs-entropy trade-off; dual of weight-side rank collapse. *Wang et al., 2025.*
 - [[fedlora-rank-collapse-prevention]] — Proves rank-agnostic aggregation of heterogeneous-rank LoRA updates causes geometric energy concentration in min shared rank; raFLoRA fixes via rank-partitioned weighting. *Wu et al., 2026.*
 - [[rmt-deep-learning-beyond-linear]] — High-dimensional Equivalent extends RMT to nonlinear deep nets; characterizes scaling laws, double descent, generalization; foundation for spectral rank analysis. *Liao & Mahoney, 2025 (IEEE SPM).*
 - [[rmt-transformer-singular-values]] — RMT baseline (Marchenko-Pastur) reveals learned structure at both spectrum ends in transformers; small SVs matter; fine-tuning shifts importance toward extremes. *Staats et al., 2024.*

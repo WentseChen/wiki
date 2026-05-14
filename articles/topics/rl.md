@@ -12,6 +12,8 @@ Reinforcement learning — policy/value methods, exploration, offline RL.
 
 ## Recent
 
+- [[aepo-arbitrary-entropy-policy-optimization]] — AEPO reformulates entropy regulation as a PG problem via REINFORCE on temperature-adjusted samples; avoids reward-vs-entropy trade-off; dual of weight-side rank collapse. *Wang et al., 2025.*
+- [[dapo-open-source-rl-system]] — DAPO names entropy collapse as core GRPO failure; decoupled clip-higher + dynamic sampling restore exploration; 50 pts AIME 2024 on Qwen2.5-32B. *Yu et al., 2025.*
 - [[rank1-fisher-natural-policy-gradient]] — Rank-1 inverse-FIM approx for scalable natural PG; proves faster convergence; low-rank FIM under sparse rewards grounds rank-collapse in RL. *Huo et al., 2026.*
 - [[intrinsic-dim-objective-landscapes]] — Defines intrinsic dimension via random-subspace training; shows RL/supervised problems have far smaller intrinsic dims than parameter counts; Pong ≈ CIFAR-10 difficulty. *Li et al., 2018 (ICLR).*
 - [[remix-rl-routing-mixture-loras]] — Routing collapse in Mixture-of-LoRAs fixed via RL gradient estimation on non-learnable routers; enforces balanced adapter utilization. *Qiu et al., 2026 (ICLR).*
