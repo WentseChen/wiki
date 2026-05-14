@@ -12,6 +12,8 @@ Reinforcement learning — policy/value methods, exploration, offline RL.
 
 ## Recent
 
+- [[rank1-fisher-natural-policy-gradient]] — Rank-1 inverse-FIM approx for scalable natural PG; proves faster convergence; low-rank FIM under sparse rewards grounds rank-collapse in RL. *Huo et al., 2026.*
+- [[intrinsic-dim-objective-landscapes]] — Defines intrinsic dimension via random-subspace training; shows RL/supervised problems have far smaller intrinsic dims than parameter counts; Pong ≈ CIFAR-10 difficulty. *Li et al., 2018 (ICLR).*
 - [[remix-rl-routing-mixture-loras]] — Routing collapse in Mixture-of-LoRAs fixed via RL gradient estimation on non-learnable routers; enforces balanced adapter utilization. *Qiu et al., 2026 (ICLR).*
 - [[shared-lora-personalized-rlhf]] — LoRA in aggregated reward parameter space handles heterogeneous preferences; sample complexity guarantees for personalized RLHF. *Liu et al., 2025 (AISTATS).*
 - [[peft-preference-alignment-tradeoffs]] — 300+ experiments: LoRA/QLoRA × SFT/DPO; SFT sometimes beats DPO; non-trivial PEFT-alignment interactions across model families. *Thakkar et al., 2024 (ACL).*

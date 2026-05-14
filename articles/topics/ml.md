@@ -12,6 +12,13 @@ General machine learning — supervised, self-supervised, other.
 
 ## Recent
 
+- [[fedlora-rank-collapse-prevention]] — Proves rank-agnostic aggregation of heterogeneous-rank LoRA updates causes geometric energy concentration in min shared rank; raFLoRA fixes via rank-partitioned weighting. *Wu et al., 2026.*
+- [[rmt-deep-learning-beyond-linear]] — High-dimensional Equivalent extends RMT to nonlinear deep nets; characterizes scaling laws, double descent, generalization; foundation for spectral rank analysis. *Liao & Mahoney, 2025 (IEEE SPM).*
+- [[low-rank-bias-weight-decay-merging]] — Proves L2 weight decay induces parameter-gradient alignment + low-rank bias at stationary points; enables model merging via weight sum under orthogonal inputs. *Kuzborskij & Abbasi Yadkori, 2025.*
+- [[lora-convergence-rate-gd]] — First non-asymptotic LoRA GD convergence: O(1/log T) to stationary point without Lipschitz smoothness; outer-product reparametrization + modified descent lemma. *Mu & Klabjan, 2025 (ICML 2026).*
+- [[neural-collapse-low-rank-bias]] — L² weight decay jointly drives neural collapse and low-rank bias; proves distance to rank-K ∝ TCV/λ; benign landscape under regularization. *Zangrando et al., 2024.*
+- [[lora-ntk-no-spurious-minima]] — LoRA with rank ≳ √N eliminates all spurious local minima in NTK regime; gives data-size-dependent rank threshold. *Jang et al., 2024 (ICML).*
+- [[lora-convergence-implicit-bias]] — Proves LoRA converges to low-rank global min or high-rank spurious min; implicit bias from zero-init + weight decay drives rank collapse. *Kim et al., 2025.*
 - [[low-rank-pretraining-spectral-geometry]] — Low-rank pre-training converges to geometrically distinct solutions from full-rank even at matched perplexity; 16-metric spectral/geometric analysis. *Shivagunde et al., 2026.*
 - [[molf-lora-full-finetuning-routing]] — MoLF routes gradient updates between LoRA and full FT at optimizer level; MoLF-Efficient routes among variable-rank LoRA experts. *Tang et al., 2026.*
 - [[goat-lora-adaptive-svd-moe]] — GOAT: SVD-structured MoE routes to relevant singular value priors; closes LoRA-vs-full-FT gap on 25 datasets. *Fan et al., 2025 (ICML).*

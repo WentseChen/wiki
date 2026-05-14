@@ -3,6 +3,12 @@
 Low-Rank Adaptation — parameter-efficient fine-tuning method that injects trainable low-rank matrices (A, B) into frozen pretrained weight layers, so only rank-r perturbations are learned instead of full weight updates.
 
 ## Sources
+- [[fedlora-rank-collapse-prevention]]
+- [[lora-convergence-rate-gd]]
+- [[lora-one-singular-subspace]]
+- [[intrinsic-dim-lm-finetuning]]
+- [[lora-ntk-no-spurious-minima]]
+- [[lora-convergence-implicit-bias]]
 - [[lora-rank-grpo]]
 - [[lora-vs-full-finetuning-illusion]]
 - [[lora-spectral-geometry-training-objective]]

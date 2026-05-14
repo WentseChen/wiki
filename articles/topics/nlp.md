@@ -12,6 +12,9 @@ Language models, training, alignment, prompting, evaluation.
 
 ## Recent
 
+- [[rmt-transformer-singular-values]] — RMT baseline (Marchenko-Pastur) reveals learned structure at both spectrum ends in transformers; small SVs matter; fine-tuning shifts importance toward extremes. *Staats et al., 2024.*
+- [[lora-one-singular-subspace]] — Proves LoRA adapters align to singular subspaces of one-step full gradient; LoRA-One init achieves linear convergence; explains rank collapse under sparse-reward RL. *Zhang et al., 2025 (ICML oral).*
+- [[intrinsic-dim-lm-finetuning]] — Pretrained LMs have very low intrinsic dimensionality; ~200 params in random subspace achieves 90% of full FT; compression-based generalization bounds. *Aghajanyan et al., 2021 (ACL).*
 - [[molf-lora-full-finetuning-routing]] — MoLF routes gradient updates between LoRA and full FT at optimizer level; MoLF-Efficient routes among variable-rank LoRA experts. *Tang et al., 2026.*
 - [[remix-rl-routing-mixture-loras]] — Routing collapse in Mixture-of-LoRAs fixed via RL gradient estimation on non-learnable routers; enforces balanced adapter utilization. *Qiu et al., 2026 (ICLR).*
 - [[shared-lora-personalized-rlhf]] — LoRA in aggregated reward parameter space handles heterogeneous preferences; sample complexity guarantees for personalized RLHF. *Liu et al., 2025 (AISTATS).*
